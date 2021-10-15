@@ -1,0 +1,25 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 8bd355a571f54b5cbe5ce63e55de6fb0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MultiCycleCpu_tb_behav xil_defaultlib.MultiCycleCpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.ImmediateExtend
+Compiling module xil_defaultlib.IR
+Compiling module xil_defaultlib.DFlipFlop_32bits
+Compiling module xil_defaultlib.Multiplexer41_32bits
+Compiling module xil_defaultlib.Multiplexer41_5bits
+Compiling module xil_defaultlib.Multiplexer21_32bits
+Compiling module xil_defaultlib.MultiCycleCpu
+Compiling module xil_defaultlib.MultiCycleCpu_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MultiCycleCpu_tb_behav
