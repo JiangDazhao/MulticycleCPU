@@ -44,7 +44,7 @@ module MultiCycleCpu_tb(
         Reset = 0;
         #25;
         Reset = 1;    // 开始仿真
-        #15000;        // 进行13000ns的仿真
+        #14000;        // 进行13000ns的仿真
         $stop;  // 断点
     end
 endmodule
