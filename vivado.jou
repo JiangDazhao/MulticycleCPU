@@ -2,10 +2,10 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Mon Oct 18 09:30:27 2021
-# Process ID: 15604
+# Start of session at: Mon Oct 18 22:03:51 2021
+# Process ID: 18472
 # Current directory: C:/Users/27801/Desktop/918106840727_MultiCycleCpu
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19236 C:\Users\27801\Desktop\918106840727_MultiCycleCpu\918106840727_MultiCycleCpu.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18784 C:\Users\27801\Desktop\918106840727_MultiCycleCpu\918106840727_MultiCycleCpu.xpr
 # Log file: C:/Users/27801/Desktop/918106840727_MultiCycleCpu/vivado.log
 # Journal file: C:/Users/27801/Desktop/918106840727_MultiCycleCpu\vivado.jou
 #-----------------------------------------------------------
@@ -13,48 +13,7 @@ start_gui
 open_project C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.xpr
 update_compile_order -fileset sources_1
 launch_simulation
-source MultiCycleCpu_tb.tcl
-current_wave_config {Untitled 1}
-add_wave {{/MultiCycleCpu_tb/cpu/bincode}} {{/MultiCycleCpu_tb/cpu/IDataOut}} {{/MultiCycleCpu_tb/cpu/ALU_inA}} {{/MultiCycleCpu_tb/cpu/ALU_inB}} {{/MultiCycleCpu_tb/cpu/DataOut}} {{/MultiCycleCpu_tb/cpu/opcode}} {{/MultiCycleCpu_tb/cpu/ALU_zero}} {{/MultiCycleCpu_tb/cpu/immediate}} {{/MultiCycleCpu_tb/cpu/extended}} {{/MultiCycleCpu_tb/cpu/func}} {{/MultiCycleCpu_tb/cpu/ADR_out}} {{/MultiCycleCpu_tb/cpu/BDR_out}} {{/MultiCycleCpu_tb/cpu/ALUoutDR_out}} {{/MultiCycleCpu_tb/cpu/DataBus_before}} {{/MultiCycleCpu_tb/cpu/rd}} {{/MultiCycleCpu_tb/cpu/InsMemRW}} {{/MultiCycleCpu_tb/cpu/PCWre}} {{/MultiCycleCpu_tb/cpu/ALUSrcA}} {{/MultiCycleCpu_tb/cpu/ALUSrcB}} {{/MultiCycleCpu_tb/cpu/DBDataSrc}} {{/MultiCycleCpu_tb/cpu/RegWre}} {{/MultiCycleCpu_tb/cpu/WrRegDSrc}} {{/MultiCycleCpu_tb/cpu/mRD}} {{/MultiCycleCpu_tb/cpu/mWR}} {{/MultiCycleCpu_tb/cpu/IRWre}} {{/MultiCycleCpu_tb/cpu/ExtSel}} {{/MultiCycleCpu_tb/cpu/PCSrc}} {{/MultiCycleCpu_tb/cpu/RegDst}} {{/MultiCycleCpu_tb/cpu/ALUOp}} {{/MultiCycleCpu_tb/cpu/WriteReg}} {{/MultiCycleCpu_tb/cpu/WriteData}} 
-current_wave_config {Untitled 1}
-add_wave {{/MultiCycleCpu_tb/cpu/RegisterFile/register}} 
-run all
-run all
-close_sim
-launch_simulation
-source MultiCycleCpu_tb.tcl
-current_wave_config {Untitled 2}
-add_wave {{/MultiCycleCpu_tb/cpu/bincode}} {{/MultiCycleCpu_tb/cpu/IDataOut}} {{/MultiCycleCpu_tb/cpu/ALU_inA}} {{/MultiCycleCpu_tb/cpu/ALU_inB}} {{/MultiCycleCpu_tb/cpu/DataOut}} {{/MultiCycleCpu_tb/cpu/opcode}} {{/MultiCycleCpu_tb/cpu/ALU_zero}} {{/MultiCycleCpu_tb/cpu/immediate}} {{/MultiCycleCpu_tb/cpu/extended}} {{/MultiCycleCpu_tb/cpu/func}} {{/MultiCycleCpu_tb/cpu/ADR_out}} {{/MultiCycleCpu_tb/cpu/BDR_out}} {{/MultiCycleCpu_tb/cpu/ALUoutDR_out}} {{/MultiCycleCpu_tb/cpu/DataBus_before}} {{/MultiCycleCpu_tb/cpu/rd}} {{/MultiCycleCpu_tb/cpu/InsMemRW}} {{/MultiCycleCpu_tb/cpu/PCWre}} {{/MultiCycleCpu_tb/cpu/ALUSrcA}} {{/MultiCycleCpu_tb/cpu/ALUSrcB}} {{/MultiCycleCpu_tb/cpu/DBDataSrc}} {{/MultiCycleCpu_tb/cpu/RegWre}} {{/MultiCycleCpu_tb/cpu/WrRegDSrc}} {{/MultiCycleCpu_tb/cpu/mRD}} {{/MultiCycleCpu_tb/cpu/mWR}} {{/MultiCycleCpu_tb/cpu/IRWre}} {{/MultiCycleCpu_tb/cpu/ExtSel}} {{/MultiCycleCpu_tb/cpu/PCSrc}} {{/MultiCycleCpu_tb/cpu/RegDst}} {{/MultiCycleCpu_tb/cpu/ALUOp}} {{/MultiCycleCpu_tb/cpu/WriteReg}} {{/MultiCycleCpu_tb/cpu/WriteData}} 
-relaunch_sim
-current_wave_config {Untitled 2}
-add_wave {{/MultiCycleCpu_tb/cpu/RegisterFile}} 
-relaunch_sim
-run all
-save_wave_config {C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg}
-add_files -fileset sim_1 -norecurse C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg
-set_property xsim.view {C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg} [get_filesets sim_1]
-save_wave_config {C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg}
-save_wave_config {C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg}
-current_wave_config {MultiCycleCpu_tb_behav1.wcfg}
-add_wave {{/MultiCycleCpu_tb/cpu/immediate}} 
-save_wave_config {C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg}
-save_wave_config {C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg}
-save_wave_config {C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg}
-save_wave_config {C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg}
-close_sim
-launch_simulation
 open_wave_config C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg
 source MultiCycleCpu_tb.tcl
 run all
-close_sim
-launch_simulation
-open_wave_config C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg
-source MultiCycleCpu_tb.tcl
-run all
-close_sim
-launch_simulation
-open_wave_config C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg
-source MultiCycleCpu_tb.tcl
-run all
-save_wave_config {C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg}
 close_sim
