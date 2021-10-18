@@ -1,0 +1,481 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Oct 18 09:30:27 2021
+# Process ID: 15604
+# Current directory: C:/Users/27801/Desktop/918106840727_MultiCycleCpu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19236 C:\Users\27801\Desktop\918106840727_MultiCycleCpu\918106840727_MultiCycleCpu.xpr
+# Log file: C:/Users/27801/Desktop/918106840727_MultiCycleCpu/vivado.log
+# Journal file: C:/Users/27801/Desktop/918106840727_MultiCycleCpu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 676.465 ; gain = 96.633
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MultiCycleCpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj MultiCycleCpu_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/DFlipFlop_32bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFlipFlop_32bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/IR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/ImmediateExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmediateExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/MultiCycleCpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MultiCycleCpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/Multiplexer21_32bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer21_32bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/Multiplexer41_32bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer41_32bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/Multiplexer41_5bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer41_5bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sim_1/new/MultiCycleCpu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MultiCycleCpu_tb
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+"xelab -wto 8bd355a571f54b5cbe5ce63e55de6fb0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MultiCycleCpu_tb_behav xil_defaultlib.MultiCycleCpu_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 8bd355a571f54b5cbe5ce63e55de6fb0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MultiCycleCpu_tb_behav xil_defaultlib.MultiCycleCpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.ImmediateExtend
+Compiling module xil_defaultlib.IR
+Compiling module xil_defaultlib.DFlipFlop_32bits
+Compiling module xil_defaultlib.Multiplexer41_32bits
+Compiling module xil_defaultlib.Multiplexer41_5bits
+Compiling module xil_defaultlib.Multiplexer21_32bits
+Compiling module xil_defaultlib.MultiCycleCpu
+Compiling module xil_defaultlib.MultiCycleCpu_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MultiCycleCpu_tb_behav
+
+****** Webtalk v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim/xsim.dir/MultiCycleCpu_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim/xsim.dir/MultiCycleCpu_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Oct 18 09:34:58 2021. For additional details about this file, please refer to the WebTalk help file at D:/Vivado/2019.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Oct 18 09:34:58 2021...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 676.465 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '16' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MultiCycleCpu_tb_behav -key {Behavioral:sim_1:Functional:MultiCycleCpu_tb} -tclbatch {MultiCycleCpu_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source MultiCycleCpu_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MultiCycleCpu_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:26 . Memory (MB): peak = 700.441 ; gain = 23.977
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/MultiCycleCpu_tb/cpu/bincode}} {{/MultiCycleCpu_tb/cpu/IDataOut}} {{/MultiCycleCpu_tb/cpu/ALU_inA}} {{/MultiCycleCpu_tb/cpu/ALU_inB}} {{/MultiCycleCpu_tb/cpu/DataOut}} {{/MultiCycleCpu_tb/cpu/opcode}} {{/MultiCycleCpu_tb/cpu/ALU_zero}} {{/MultiCycleCpu_tb/cpu/immediate}} {{/MultiCycleCpu_tb/cpu/extended}} {{/MultiCycleCpu_tb/cpu/func}} {{/MultiCycleCpu_tb/cpu/ADR_out}} {{/MultiCycleCpu_tb/cpu/BDR_out}} {{/MultiCycleCpu_tb/cpu/ALUoutDR_out}} {{/MultiCycleCpu_tb/cpu/DataBus_before}} {{/MultiCycleCpu_tb/cpu/rd}} {{/MultiCycleCpu_tb/cpu/InsMemRW}} {{/MultiCycleCpu_tb/cpu/PCWre}} {{/MultiCycleCpu_tb/cpu/ALUSrcA}} {{/MultiCycleCpu_tb/cpu/ALUSrcB}} {{/MultiCycleCpu_tb/cpu/DBDataSrc}} {{/MultiCycleCpu_tb/cpu/RegWre}} {{/MultiCycleCpu_tb/cpu/WrRegDSrc}} {{/MultiCycleCpu_tb/cpu/mRD}} {{/MultiCycleCpu_tb/cpu/mWR}} {{/MultiCycleCpu_tb/cpu/IRWre}} {{/MultiCycleCpu_tb/cpu/ExtSel}} {{/MultiCycleCpu_tb/cpu/PCSrc}} {{/MultiCycleCpu_tb/cpu/RegDst}} {{/MultiCycleCpu_tb/cpu/ALUOp}} {{/MultiCycleCpu_tb/cpu/WriteReg}} {{/MultiCycleCpu_tb/cpu/WriteData}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/MultiCycleCpu_tb/cpu/RegisterFile/register}} 
+run all
+$stop called at time : 14025 ns : File "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sim_1/new/MultiCycleCpu_tb.v" Line 48
+run all
+run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 869.777 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 869.777 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MultiCycleCpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj MultiCycleCpu_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+"xelab -wto 8bd355a571f54b5cbe5ce63e55de6fb0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MultiCycleCpu_tb_behav xil_defaultlib.MultiCycleCpu_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 8bd355a571f54b5cbe5ce63e55de6fb0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MultiCycleCpu_tb_behav xil_defaultlib.MultiCycleCpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MultiCycleCpu_tb_behav -key {Behavioral:sim_1:Functional:MultiCycleCpu_tb} -tclbatch {MultiCycleCpu_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source MultiCycleCpu_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MultiCycleCpu_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 869.777 ; gain = 0.000
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/MultiCycleCpu_tb/cpu/bincode}} {{/MultiCycleCpu_tb/cpu/IDataOut}} {{/MultiCycleCpu_tb/cpu/ALU_inA}} {{/MultiCycleCpu_tb/cpu/ALU_inB}} {{/MultiCycleCpu_tb/cpu/DataOut}} {{/MultiCycleCpu_tb/cpu/opcode}} {{/MultiCycleCpu_tb/cpu/ALU_zero}} {{/MultiCycleCpu_tb/cpu/immediate}} {{/MultiCycleCpu_tb/cpu/extended}} {{/MultiCycleCpu_tb/cpu/func}} {{/MultiCycleCpu_tb/cpu/ADR_out}} {{/MultiCycleCpu_tb/cpu/BDR_out}} {{/MultiCycleCpu_tb/cpu/ALUoutDR_out}} {{/MultiCycleCpu_tb/cpu/DataBus_before}} {{/MultiCycleCpu_tb/cpu/rd}} {{/MultiCycleCpu_tb/cpu/InsMemRW}} {{/MultiCycleCpu_tb/cpu/PCWre}} {{/MultiCycleCpu_tb/cpu/ALUSrcA}} {{/MultiCycleCpu_tb/cpu/ALUSrcB}} {{/MultiCycleCpu_tb/cpu/DBDataSrc}} {{/MultiCycleCpu_tb/cpu/RegWre}} {{/MultiCycleCpu_tb/cpu/WrRegDSrc}} {{/MultiCycleCpu_tb/cpu/mRD}} {{/MultiCycleCpu_tb/cpu/mWR}} {{/MultiCycleCpu_tb/cpu/IRWre}} {{/MultiCycleCpu_tb/cpu/ExtSel}} {{/MultiCycleCpu_tb/cpu/PCSrc}} {{/MultiCycleCpu_tb/cpu/RegDst}} {{/MultiCycleCpu_tb/cpu/ALUOp}} {{/MultiCycleCpu_tb/cpu/WriteReg}} {{/MultiCycleCpu_tb/cpu/WriteData}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MultiCycleCpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj MultiCycleCpu_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+"xelab -wto 8bd355a571f54b5cbe5ce63e55de6fb0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MultiCycleCpu_tb_behav xil_defaultlib.MultiCycleCpu_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 8bd355a571f54b5cbe5ce63e55de6fb0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MultiCycleCpu_tb_behav xil_defaultlib.MultiCycleCpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 869.777 ; gain = 0.000
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/MultiCycleCpu_tb/cpu/RegisterFile}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MultiCycleCpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj MultiCycleCpu_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+"xelab -wto 8bd355a571f54b5cbe5ce63e55de6fb0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MultiCycleCpu_tb_behav xil_defaultlib.MultiCycleCpu_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 8bd355a571f54b5cbe5ce63e55de6fb0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MultiCycleCpu_tb_behav xil_defaultlib.MultiCycleCpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 869.777 ; gain = 0.000
+run all
+$stop called at time : 14025 ns : File "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sim_1/new/MultiCycleCpu_tb.v" Line 48
+save_wave_config {C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg
+set_property xsim.view {C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg} [get_filesets sim_1]
+save_wave_config {C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg}
+save_wave_config {C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg}
+current_wave_config {MultiCycleCpu_tb_behav1.wcfg}
+C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg
+add_wave {{/MultiCycleCpu_tb/cpu/immediate}} 
+save_wave_config {C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg}
+save_wave_config {C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg}
+save_wave_config {C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg}
+save_wave_config {C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MultiCycleCpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj MultiCycleCpu_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+"xelab -wto 8bd355a571f54b5cbe5ce63e55de6fb0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MultiCycleCpu_tb_behav xil_defaultlib.MultiCycleCpu_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 8bd355a571f54b5cbe5ce63e55de6fb0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MultiCycleCpu_tb_behav xil_defaultlib.MultiCycleCpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MultiCycleCpu_tb_behav -key {Behavioral:sim_1:Functional:MultiCycleCpu_tb} -tclbatch {MultiCycleCpu_tb.tcl} -view {C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg
+source MultiCycleCpu_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MultiCycleCpu_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 909.004 ; gain = 0.000
+run all
+$stop called at time : 14025 ns : File "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sim_1/new/MultiCycleCpu_tb.v" Line 48
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MultiCycleCpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj MultiCycleCpu_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/DFlipFlop_32bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFlipFlop_32bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/IR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/ImmediateExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmediateExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/MultiCycleCpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MultiCycleCpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/Multiplexer21_32bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer21_32bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/Multiplexer41_32bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer41_32bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/Multiplexer41_5bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer41_5bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sim_1/new/MultiCycleCpu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MultiCycleCpu_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+"xelab -wto 8bd355a571f54b5cbe5ce63e55de6fb0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MultiCycleCpu_tb_behav xil_defaultlib.MultiCycleCpu_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 8bd355a571f54b5cbe5ce63e55de6fb0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MultiCycleCpu_tb_behav xil_defaultlib.MultiCycleCpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.ImmediateExtend
+Compiling module xil_defaultlib.IR
+Compiling module xil_defaultlib.DFlipFlop_32bits
+Compiling module xil_defaultlib.Multiplexer41_32bits
+Compiling module xil_defaultlib.Multiplexer41_5bits
+Compiling module xil_defaultlib.Multiplexer21_32bits
+Compiling module xil_defaultlib.MultiCycleCpu
+Compiling module xil_defaultlib.MultiCycleCpu_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MultiCycleCpu_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MultiCycleCpu_tb_behav -key {Behavioral:sim_1:Functional:MultiCycleCpu_tb} -tclbatch {MultiCycleCpu_tb.tcl} -view {C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg
+source MultiCycleCpu_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MultiCycleCpu_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 909.004 ; gain = 0.000
+run all
+$stop called at time : 12025 ns : File "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sim_1/new/MultiCycleCpu_tb.v" Line 48
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MultiCycleCpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj MultiCycleCpu_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/DFlipFlop_32bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFlipFlop_32bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/IR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/ImmediateExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmediateExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/MultiCycleCpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MultiCycleCpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/Multiplexer21_32bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer21_32bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/Multiplexer41_32bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer41_32bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/Multiplexer41_5bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer41_5bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sim_1/new/MultiCycleCpu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MultiCycleCpu_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+"xelab -wto 8bd355a571f54b5cbe5ce63e55de6fb0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MultiCycleCpu_tb_behav xil_defaultlib.MultiCycleCpu_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 8bd355a571f54b5cbe5ce63e55de6fb0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MultiCycleCpu_tb_behav xil_defaultlib.MultiCycleCpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.ImmediateExtend
+Compiling module xil_defaultlib.IR
+Compiling module xil_defaultlib.DFlipFlop_32bits
+Compiling module xil_defaultlib.Multiplexer41_32bits
+Compiling module xil_defaultlib.Multiplexer41_5bits
+Compiling module xil_defaultlib.Multiplexer21_32bits
+Compiling module xil_defaultlib.MultiCycleCpu
+Compiling module xil_defaultlib.MultiCycleCpu_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MultiCycleCpu_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MultiCycleCpu_tb_behav -key {Behavioral:sim_1:Functional:MultiCycleCpu_tb} -tclbatch {MultiCycleCpu_tb.tcl} -view {C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg
+source MultiCycleCpu_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MultiCycleCpu_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 909.004 ; gain = 0.000
+run all
+$stop called at time : 12525 ns : File "C:/Users/27801/Desktop/918106840727_MultiCycleCpu/918106840727_MultiCycleCpu.srcs/sim_1/new/MultiCycleCpu_tb.v" Line 48
+save_wave_config {C:/Users/27801/Desktop/918106840727_MultiCycleCpu/MultiCycleCpu_tb_behav1.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 18 13:35:57 2021...
